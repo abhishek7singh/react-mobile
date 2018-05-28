@@ -1,0 +1,21 @@
+.footerWrapper{
+    position: fixed;
+    bottom: 0;
+    box-shadow: -1px 1pt 7pt grey;
+    width: 100%;
+}
+.footerList{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.footerListItem a{
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}

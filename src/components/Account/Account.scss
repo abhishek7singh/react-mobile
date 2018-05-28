@@ -1,0 +1,53 @@
+$border-color: #D2D2D2;
+$font-16: 16px;
+$font-18: 18px;
+$font-stack: Roboto, Regular;
+$red: #EC2224;
+body {
+    font-family: $font-stack;
+}
+.homeWrapper{
+    padding: 60px 0;
+}
+.userImg {
+    width: 90px;
+    height:92px;
+    display: inline-block;
+    padding: 20px;
+    img {
+        background-repeat: no-repeat;
+        width: 90px;
+    }    
+}
+.userAction {
+    float: right;
+    padding: 44px 50px 0 20px;
+    button {
+        width: 161px;
+        height: 45px;
+        border-radius: 4px;
+        background: transparent;
+        border: 1px solid $red;
+        font-size: $font-18;
+        color: #EC2224;
+    }
+}
+
+.userActionList {
+        border-top:1px solid $border-color;
+        ul {
+        padding: 0px;
+        margin: 0;
+        li {
+            list-style: none;
+            border-bottom: 1px solid $border-color;
+            padding: 20px;
+            a {
+                font-size: $font-16;
+            }
+        }
+    }
+}
+.borderBottom {
+    border-bottom: 2px solid $border-color;
+}
