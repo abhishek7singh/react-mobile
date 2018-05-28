@@ -7,7 +7,7 @@ export default class Account extends React.Component {
             <div className={AccountStyles.accContainer}>
                 <div className={AccountStyles.accProfile}>
                     <div className={AccountStyles.userImg}>
-                        <img src="/public/images/userProfile.png" />
+                        <img src="/images/userProfile.png" />
                     </div>
                     <span className={AccountStyles.userAction}>
                         <button>Sign in/Sign up</button>

@@ -1,0 +1,21 @@
+{
+    "short_name": "RedDoorz",
+    "name": "RedDoorz",
+    "icons": [
+      {
+        "src": "/images/reddoorz-icon.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/images/reddoorz-icon.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "/",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#ec2224"
+  }
