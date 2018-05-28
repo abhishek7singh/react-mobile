@@ -2,8 +2,8 @@ import React from 'react';
 import AccountStyles from './Account.scss';
 
 export default class Account extends React.Component {
-    render() {
-        return <div className={AccountStyles.homeWrapper}>
+  render() {
+    return <div className={AccountStyles.homeWrapper}>
             <div className={AccountStyles.accContainer}>
                 <div className={AccountStyles.accProfile}>
                     <div className={AccountStyles.userImg}>
@@ -31,5 +31,5 @@ export default class Account extends React.Component {
 
             </div>
         </div>;
-    }
+  }
 }
