@@ -1,11 +1,12 @@
 const HtmlWebPackPlugin = require('html-webpack-plugin');
 const WorkboxPlugin = require('workbox-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-//const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
+// const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 const htmlWebpackPlugin = new HtmlWebPackPlugin({
   template: './src/index.html',
-  filename: './index.html'
+  filename: './index.html',
+  hash: true
 });
 
 module.exports = {
@@ -63,7 +64,7 @@ module.exports = {
       // both options are optional
       filename: '[name].css',
       chunkFilename: '[id].css'
-    }) //,
-    //new BundleAnalyzerPlugin()
+    }) // ,
+    // new BundleAnalyzerPlugin()
   ]
 };
